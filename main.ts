@@ -60,8 +60,8 @@ radio.onReceivedNumber(function(receivedNumber: number) {
 basic.forever(function () {
     if (krizovatka === false) {
         if (dataC === 1 && dataL === 0 && dataP === 0) {
-            L = 150
-            P = 150
+            L = 250
+            P = 250
         }
         if (dataP === 0 && dataL === 1) {
             P = 250
